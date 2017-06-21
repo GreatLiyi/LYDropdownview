@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC4514C8822342771D885C3 /* libPods-LYDropdownViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E75ADB9A3FD95CFF1C22CBE3 /* libPods-LYDropdownViewDemo.a */; };
+		6EEF56DD1EFA4874008AC6E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF56DC1EFA4874008AC6E0 /* main.m */; };
+		6EEF56E01EFA4874008AC6E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF56DF1EFA4874008AC6E0 /* AppDelegate.m */; };
+		6EEF56E31EFA4874008AC6E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF56E21EFA4874008AC6E0 /* ViewController.m */; };
+		6EEF56E61EFA4874008AC6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF56E41EFA4874008AC6E0 /* Main.storyboard */; };
+		6EEF56E81EFA4874008AC6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF56E71EFA4874008AC6E0 /* Assets.xcassets */; };
+		6EEF56EB1EFA4874008AC6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF56E91EFA4874008AC6E0 /* LaunchScreen.storyboard */; };
+		6EEF56F61EFA4874008AC6E0 /* LYDropdownViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF56F51EFA4874008AC6E0 /* LYDropdownViewDemoTests.m */; };
+		6EEF57011EFA4874008AC6E0 /* LYDropdownViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF57001EFA4874008AC6E0 /* LYDropdownViewDemoUITests.m */; };
+		6EEF57111EFA49D8008AC6E0 /* NSString+size.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF57101EFA49D8008AC6E0 /* NSString+size.m */; };
+		6EEF57171EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF57161EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.m */; };
+		6EEF571A1EFA4B35008AC6E0 /* LYDropDownMenuUICalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF57191EFA4B35008AC6E0 /* LYDropDownMenuUICalc.m */; };
+		6EEF571D1EFA4BCB008AC6E0 /* LYDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF571C1EFA4BCB008AC6E0 /* LYDropDownMenuCell.m */; };
+		6EEF57201EFA4C46008AC6E0 /* LYDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF571F1EFA4C46008AC6E0 /* LYDropDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EEF56F21EFA4874008AC6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EEF56D01EFA4874008AC6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EEF56D71EFA4874008AC6E0;
+			remoteInfo = LYDropdownViewDemo;
+		};
+		6EEF56FD1EFA4874008AC6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EEF56D01EFA4874008AC6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EEF56D71EFA4874008AC6E0;
+			remoteInfo = LYDropdownViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EEF56D81EFA4874008AC6E0 /* LYDropdownViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYDropdownViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEF56DC1EFA4874008AC6E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EEF56DE1EFA4874008AC6E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EEF56DF1EFA4874008AC6E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EEF56E11EFA4874008AC6E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EEF56E21EFA4874008AC6E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EEF56E51EFA4874008AC6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EEF56E71EFA4874008AC6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EEF56EA1EFA4874008AC6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EEF56EC1EFA4874008AC6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EEF56F11EFA4874008AC6E0 /* LYDropdownViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDropdownViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEF56F51EFA4874008AC6E0 /* LYDropdownViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDropdownViewDemoTests.m; sourceTree = "<group>"; };
+		6EEF56F71EFA4874008AC6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EEF56FC1EFA4874008AC6E0 /* LYDropdownViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDropdownViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEF57001EFA4874008AC6E0 /* LYDropdownViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDropdownViewDemoUITests.m; sourceTree = "<group>"; };
+		6EEF57021EFA4874008AC6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EEF570F1EFA49D8008AC6E0 /* NSString+size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+size.h"; sourceTree = "<group>"; };
+		6EEF57101EFA49D8008AC6E0 /* NSString+size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+size.m"; sourceTree = "<group>"; };
+		6EEF57151EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDropDownMenuTitleButton.h; sourceTree = "<group>"; };
+		6EEF57161EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDropDownMenuTitleButton.m; sourceTree = "<group>"; };
+		6EEF57181EFA4B35008AC6E0 /* LYDropDownMenuUICalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDropDownMenuUICalc.h; sourceTree = "<group>"; };
+		6EEF57191EFA4B35008AC6E0 /* LYDropDownMenuUICalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDropDownMenuUICalc.m; sourceTree = "<group>"; };
+		6EEF571B1EFA4BCB008AC6E0 /* LYDropDownMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDropDownMenuCell.h; sourceTree = "<group>"; };
+		6EEF571C1EFA4BCB008AC6E0 /* LYDropDownMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDropDownMenuCell.m; sourceTree = "<group>"; };
+		6EEF571E1EFA4C46008AC6E0 /* LYDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDropDownMenu.h; sourceTree = "<group>"; };
+		6EEF571F1EFA4C46008AC6E0 /* LYDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDropDownMenu.m; sourceTree = "<group>"; };
+		AE4405FB1B9BDF2BB9BC305F /* Pods-LYDropdownViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDropdownViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDropdownViewDemo/Pods-LYDropdownViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DC9A5477141A8D26ED8A3159 /* Pods-LYDropdownViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDropdownViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDropdownViewDemo/Pods-LYDropdownViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E75ADB9A3FD95CFF1C22CBE3 /* libPods-LYDropdownViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYDropdownViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EEF56D51EFA4874008AC6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC4514C8822342771D885C3 /* libPods-LYDropdownViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56EE1EFA4874008AC6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56F91EFA4874008AC6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EEF56CF1EFA4874008AC6E0 = {
+			isa = PBXGroup;
+			children = (
+				6EEF56DA1EFA4874008AC6E0 /* LYDropdownViewDemo */,
+				6EEF56F41EFA4874008AC6E0 /* LYDropdownViewDemoTests */,
+				6EEF56FF1EFA4874008AC6E0 /* LYDropdownViewDemoUITests */,
+				6EEF56D91EFA4874008AC6E0 /* Products */,
+				7BF6A4F64108DE4550DF8129 /* Pods */,
+				F9810CBA7FE34F6E31D8E825 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EEF56D91EFA4874008AC6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF56D81EFA4874008AC6E0 /* LYDropdownViewDemo.app */,
+				6EEF56F11EFA4874008AC6E0 /* LYDropdownViewDemoTests.xctest */,
+				6EEF56FC1EFA4874008AC6E0 /* LYDropdownViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EEF56DA1EFA4874008AC6E0 /* LYDropdownViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF570E1EFA48F2008AC6E0 /* LYDropdownview */,
+				6EEF56DE1EFA4874008AC6E0 /* AppDelegate.h */,
+				6EEF56DF1EFA4874008AC6E0 /* AppDelegate.m */,
+				6EEF56E11EFA4874008AC6E0 /* ViewController.h */,
+				6EEF56E21EFA4874008AC6E0 /* ViewController.m */,
+				6EEF56E41EFA4874008AC6E0 /* Main.storyboard */,
+				6EEF56E71EFA4874008AC6E0 /* Assets.xcassets */,
+				6EEF56E91EFA4874008AC6E0 /* LaunchScreen.storyboard */,
+				6EEF56EC1EFA4874008AC6E0 /* Info.plist */,
+				6EEF56DB1EFA4874008AC6E0 /* Supporting Files */,
+				6EEF570F1EFA49D8008AC6E0 /* NSString+size.h */,
+				6EEF57101EFA49D8008AC6E0 /* NSString+size.m */,
+			);
+			path = LYDropdownViewDemo;
+			sourceTree = "<group>";
+		};
+		6EEF56DB1EFA4874008AC6E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF56DC1EFA4874008AC6E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EEF56F41EFA4874008AC6E0 /* LYDropdownViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF56F51EFA4874008AC6E0 /* LYDropdownViewDemoTests.m */,
+				6EEF56F71EFA4874008AC6E0 /* Info.plist */,
+			);
+			path = LYDropdownViewDemoTests;
+			sourceTree = "<group>";
+		};
+		6EEF56FF1EFA4874008AC6E0 /* LYDropdownViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF57001EFA4874008AC6E0 /* LYDropdownViewDemoUITests.m */,
+				6EEF57021EFA4874008AC6E0 /* Info.plist */,
+			);
+			path = LYDropdownViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		6EEF570E1EFA48F2008AC6E0 /* LYDropdownview */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF571E1EFA4C46008AC6E0 /* LYDropDownMenu.h */,
+				6EEF571F1EFA4C46008AC6E0 /* LYDropDownMenu.m */,
+				6EEF57151EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.h */,
+				6EEF57161EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.m */,
+				6EEF57181EFA4B35008AC6E0 /* LYDropDownMenuUICalc.h */,
+				6EEF57191EFA4B35008AC6E0 /* LYDropDownMenuUICalc.m */,
+				6EEF571B1EFA4BCB008AC6E0 /* LYDropDownMenuCell.h */,
+				6EEF571C1EFA4BCB008AC6E0 /* LYDropDownMenuCell.m */,
+			);
+			path = LYDropdownview;
+			sourceTree = "<group>";
+		};
+		7BF6A4F64108DE4550DF8129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A5477141A8D26ED8A3159 /* Pods-LYDropdownViewDemo.debug.xcconfig */,
+				AE4405FB1B9BDF2BB9BC305F /* Pods-LYDropdownViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9810CBA7FE34F6E31D8E825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75ADB9A3FD95CFF1C22CBE3 /* libPods-LYDropdownViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EEF56D71EFA4874008AC6E0 /* LYDropdownViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EEF57051EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemo" */;
+			buildPhases = (
+				997F990FF3F3A285B861AFA7 /* [CP] Check Pods Manifest.lock */,
+				6EEF56D41EFA4874008AC6E0 /* Sources */,
+				6EEF56D51EFA4874008AC6E0 /* Frameworks */,
+				6EEF56D61EFA4874008AC6E0 /* Resources */,
+				F3E31523EC84BF7E0995631A /* [CP] Embed Pods Frameworks */,
+				92624D6BA0C8BFE7966984DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYDropdownViewDemo;
+			productName = LYDropdownViewDemo;
+			productReference = 6EEF56D81EFA4874008AC6E0 /* LYDropdownViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EEF56F01EFA4874008AC6E0 /* LYDropdownViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EEF57081EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemoTests" */;
+			buildPhases = (
+				6EEF56ED1EFA4874008AC6E0 /* Sources */,
+				6EEF56EE1EFA4874008AC6E0 /* Frameworks */,
+				6EEF56EF1EFA4874008AC6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EEF56F31EFA4874008AC6E0 /* PBXTargetDependency */,
+			);
+			name = LYDropdownViewDemoTests;
+			productName = LYDropdownViewDemoTests;
+			productReference = 6EEF56F11EFA4874008AC6E0 /* LYDropdownViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EEF56FB1EFA4874008AC6E0 /* LYDropdownViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EEF570B1EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemoUITests" */;
+			buildPhases = (
+				6EEF56F81EFA4874008AC6E0 /* Sources */,
+				6EEF56F91EFA4874008AC6E0 /* Frameworks */,
+				6EEF56FA1EFA4874008AC6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EEF56FE1EFA4874008AC6E0 /* PBXTargetDependency */,
+			);
+			name = LYDropdownViewDemoUITests;
+			productName = LYDropdownViewDemoUITests;
+			productReference = 6EEF56FC1EFA4874008AC6E0 /* LYDropdownViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EEF56D01EFA4874008AC6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liyi;
+				TargetAttributes = {
+					6EEF56D71EFA4874008AC6E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6EEF56F01EFA4874008AC6E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EEF56D71EFA4874008AC6E0;
+					};
+					6EEF56FB1EFA4874008AC6E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EEF56D71EFA4874008AC6E0;
+					};
+				};
+			};
+			buildConfigurationList = 6EEF56D31EFA4874008AC6E0 /* Build configuration list for PBXProject "LYDropdownViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EEF56CF1EFA4874008AC6E0;
+			productRefGroup = 6EEF56D91EFA4874008AC6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EEF56D71EFA4874008AC6E0 /* LYDropdownViewDemo */,
+				6EEF56F01EFA4874008AC6E0 /* LYDropdownViewDemoTests */,
+				6EEF56FB1EFA4874008AC6E0 /* LYDropdownViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EEF56D61EFA4874008AC6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF56EB1EFA4874008AC6E0 /* LaunchScreen.storyboard in Resources */,
+				6EEF56E81EFA4874008AC6E0 /* Assets.xcassets in Resources */,
+				6EEF56E61EFA4874008AC6E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56EF1EFA4874008AC6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56FA1EFA4874008AC6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92624D6BA0C8BFE7966984DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDropdownViewDemo/Pods-LYDropdownViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997F990FF3F3A285B861AFA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E31523EC84BF7E0995631A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDropdownViewDemo/Pods-LYDropdownViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EEF56D41EFA4874008AC6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF571D1EFA4BCB008AC6E0 /* LYDropDownMenuCell.m in Sources */,
+				6EEF57111EFA49D8008AC6E0 /* NSString+size.m in Sources */,
+				6EEF57201EFA4C46008AC6E0 /* LYDropDownMenu.m in Sources */,
+				6EEF57171EFA4AAD008AC6E0 /* LYDropDownMenuTitleButton.m in Sources */,
+				6EEF56E31EFA4874008AC6E0 /* ViewController.m in Sources */,
+				6EEF56E01EFA4874008AC6E0 /* AppDelegate.m in Sources */,
+				6EEF56DD1EFA4874008AC6E0 /* main.m in Sources */,
+				6EEF571A1EFA4B35008AC6E0 /* LYDropDownMenuUICalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56ED1EFA4874008AC6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF56F61EFA4874008AC6E0 /* LYDropdownViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEF56F81EFA4874008AC6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF57011EFA4874008AC6E0 /* LYDropdownViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EEF56F31EFA4874008AC6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EEF56D71EFA4874008AC6E0 /* LYDropdownViewDemo */;
+			targetProxy = 6EEF56F21EFA4874008AC6E0 /* PBXContainerItemProxy */;
+		};
+		6EEF56FE1EFA4874008AC6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EEF56D71EFA4874008AC6E0 /* LYDropdownViewDemo */;
+			targetProxy = 6EEF56FD1EFA4874008AC6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EEF56E41EFA4874008AC6E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EEF56E51EFA4874008AC6E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EEF56E91EFA4874008AC6E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EEF56EA1EFA4874008AC6E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EEF57031EFA4874008AC6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EEF57041EFA4874008AC6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EEF57061EFA4874008AC6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9A5477141A8D26ED8A3159 /* Pods-LYDropdownViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYDropdownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EEF57071EFA4874008AC6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4405FB1B9BDF2BB9BC305F /* Pods-LYDropdownViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYDropdownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EEF57091EFA4874008AC6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYDropdownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDropdownViewDemo.app/LYDropdownViewDemo";
+			};
+			name = Debug;
+		};
+		6EEF570A1EFA4874008AC6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYDropdownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDropdownViewDemo.app/LYDropdownViewDemo";
+			};
+			name = Release;
+		};
+		6EEF570C1EFA4874008AC6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYDropdownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYDropdownViewDemo;
+			};
+			name = Debug;
+		};
+		6EEF570D1EFA4874008AC6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYDropdownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyi..LYDropdownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYDropdownViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EEF56D31EFA4874008AC6E0 /* Build configuration list for PBXProject "LYDropdownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEF57031EFA4874008AC6E0 /* Debug */,
+				6EEF57041EFA4874008AC6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EEF57051EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEF57061EFA4874008AC6E0 /* Debug */,
+				6EEF57071EFA4874008AC6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EEF57081EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEF57091EFA4874008AC6E0 /* Debug */,
+				6EEF570A1EFA4874008AC6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EEF570B1EFA4874008AC6E0 /* Build configuration list for PBXNativeTarget "LYDropdownViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEF570C1EFA4874008AC6E0 /* Debug */,
+				6EEF570D1EFA4874008AC6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EEF56D01EFA4874008AC6E0 /* Project object */;
+}
